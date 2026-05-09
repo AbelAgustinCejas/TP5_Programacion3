@@ -20,6 +20,13 @@
         .auto-style4 {
             width: 240px;
         }
+        .auto-style5 {
+            height: 31px;
+        }
+        .auto-style6 {
+            width: 240px;
+            height: 31px;
+        }
     </style>
 </head>
 <body>
@@ -48,12 +55,38 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
+<td style="
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+">
+    GRUPO N°
+</td>                <td>&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+     ahor       </tr>
+            <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
+<td style="
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+">
+    Agregar Sucursal
+</td>                <td class="auto-style5"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
@@ -64,23 +97,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
+                <td>Nombre Sucursal:</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
