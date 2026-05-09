@@ -27,13 +27,31 @@
             width: 240px;
             height: 31px;
         }
+        .auto-style7 {
+            height: 26px;
+            width: 370px;
+        }
+        .auto-style8 {
+            width: 370px;
+        }
+        .auto-style9 {
+            width: 370px;
+            height: 23px;
+        }
+        .auto-style10 {
+            height: 23px;
+        }
+        .auto-style11 {
+            width: 240px;
+            height: 23px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style7">
                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
                 </td>
                 <td class="auto-style2"></td>
@@ -47,7 +65,7 @@
                 <td class="auto-style2"></td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -59,7 +77,7 @@
     font-size: 42px;
     font-weight: bold;
     font-family: 'Times New Roman', serif;
-">
+" class="auto-style8">
     GRUPO N°
 </td>                <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
@@ -68,7 +86,7 @@
                 <td>&nbsp;</td>
      ahor       </tr>
             <tr>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -80,7 +98,7 @@
     font-size: 28px;
     font-weight: bold;
     font-family: 'Times New Roman', serif;
-">
+" class="auto-style8">
     Agregar Sucursal
 </td>                <td class="auto-style5"></td>
                 <td class="auto-style6"></td>
@@ -89,15 +107,7 @@
                 <td class="auto-style5"></td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>Nombre Sucursal:</td>
+                <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -105,7 +115,29 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style8">Nombre Sucursal:</td>
+                <td>
+                    <asp:TextBox ID="txtNombreSucursal" runat="server"></asp:TextBox>
+                </td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">
+                    <asp:Label ID="lblDescripcion" runat="server" Text="Descripcion:"></asp:Label>
+                </td>
+                <td class="auto-style10"></td>
+                <td class="auto-style11"></td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
+            </tr>
+            <tr>
+                <td class="auto-style8">
+                    <asp:Label ID="lblProvincia" runat="server" Text="Provincia:"></asp:Label>
+                </td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -113,15 +145,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
