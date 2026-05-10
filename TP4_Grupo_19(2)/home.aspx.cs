@@ -13,5 +13,10 @@ namespace TP4_Grupo_19_2_
         {
 
         }
+
+        protected void txtNombreSucursal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
