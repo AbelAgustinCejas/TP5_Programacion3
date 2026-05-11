@@ -9,35 +9,35 @@
     <style type="text/css">
         .auto-style2 {
             height: 36px;
-            width: 366px;
+            width: 281px;
         }
         .auto-style3 {
-            width: 366px;
+            width: 281px;
         }
         .auto-style4 {
             height: 36px;
-            width: 431px;
+            width: 372px;
         }
         .auto-style5 {
-            width: 431px;
+            width: 372px;
         }
         .auto-style6 {
             height: 36px;
-            width: 151px;
+            width: 125px;
         }
         .auto-style7 {
-            width: 151px;
+            width: 125px;
         }
         .auto-style8 {
-            width: 366px;
+            width: 281px;
             height: 39px;
         }
         .auto-style9 {
-            width: 431px;
+            width: 372px;
             height: 39px;
         }
         .auto-style10 {
-            width: 151px;
+            width: 125px;
             height: 39px;
         }
         .auto-style11 {
@@ -58,6 +58,8 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
                             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/EliminarSucursales.aspx">Eliminar Sucursal</asp:HyperLink>
+            <br />
+            <br />
 </div>
     <table style="width: 100%; height: 44px;">
         <tr>
