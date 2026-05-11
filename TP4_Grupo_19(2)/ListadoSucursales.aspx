@@ -80,16 +80,27 @@
         <tr>
             <td class="auto-style8">Busqueda ingrese Id sucursal: </td>
             <td class="auto-style9">
-                <asp:TextBox ID="TextBox1" runat="server" Width="348px"></asp:TextBox>
+                <asp:TextBox ID="txtSucursales" runat="server" Width="348px"></asp:TextBox>
             </td>
             <td class="auto-style10">
-                <asp:Button ID="btFiltrar" runat="server" Text="Filtrar" />
+                <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" />
             </td>
                  <td class="auto-style11">
-                     <asp:Button ID="btMostrar" runat="server" Text="Mostrar todos" />
+                     <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" />
             </td>
         </tr>
+        <tr>
+            <td class="auto-style8">&nbsp;</td>
+            <td class="auto-style9">
+                &nbsp;</td>
+            <td class="auto-style10">
+                &nbsp;</td>
+                 <td class="auto-style11">
+                     &nbsp;</td>
+        </tr>
     </table>
+        <asp:GridView ID="gridSucursales" runat="server" Height="254px" Width="1343px">
+        </asp:GridView>
     </form>
     </body>
 </html>
