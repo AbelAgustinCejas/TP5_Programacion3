@@ -6,11 +6,88 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style2 {
+            height: 36px;
+            width: 366px;
+        }
+        .auto-style3 {
+            width: 366px;
+        }
+        .auto-style4 {
+            height: 36px;
+            width: 431px;
+        }
+        .auto-style5 {
+            width: 431px;
+        }
+        .auto-style6 {
+            height: 36px;
+            width: 151px;
+        }
+        .auto-style7 {
+            width: 151px;
+        }
+        .auto-style8 {
+            width: 366px;
+            height: 39px;
+        }
+        .auto-style9 {
+            width: 431px;
+            height: 39px;
+        }
+        .auto-style10 {
+            width: 151px;
+            height: 39px;
+        }
+        .auto-style11 {
+            width: 95px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+
+<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ListadoSucursales.aspx">Listado de Sucursales</asp:HyperLink>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/EliminarSucursales.aspx">Eliminar Sucursal</asp:HyperLink>
+</div>
+    <table style="width: 100%; height: 44px;">
+        <tr>
+<td style="
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+" class="auto-style2">
+    Listado de Sucursales
+</td>             <td class="auto-style4"></td>
+            <td class="auto-style6"></td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style8">Busqueda ingrese Id sucursal: </td>
+            <td class="auto-style9">
+                <asp:TextBox ID="TextBox1" runat="server" Width="348px"></asp:TextBox>
+            </td>
+            <td class="auto-style10">
+                <asp:Button ID="btFiltrar" runat="server" Text="Filtrar" />
+            </td>
+                 <td class="auto-style11">
+                     <asp:Button ID="btMostrar" runat="server" Text="Mostrar todos" />
+            </td>
+        </tr>
+    </table>
     </form>
-</body>
+    </body>
 </html>

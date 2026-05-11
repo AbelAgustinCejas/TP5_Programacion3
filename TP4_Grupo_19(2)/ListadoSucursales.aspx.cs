@@ -13,5 +13,10 @@ namespace TP4_Grupo_19_2_
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
