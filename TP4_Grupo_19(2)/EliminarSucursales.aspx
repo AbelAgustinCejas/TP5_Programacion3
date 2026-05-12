@@ -9,6 +9,28 @@
     <style type="text/css">
         .auto-style1 {
             width: 360px;
+            height: 29px;
+        }
+        .auto-style2 {
+            width: 360px;
+            height: 26px;
+        }
+        .auto-style3 {
+            height: 26px;
+        }
+        .auto-style4 {
+            height: 29px;
+        }
+        .auto-style5 {
+            width: 318px;
+        }
+        .auto-style6 {
+            height: 26px;
+            width: 318px;
+        }
+        .auto-style7 {
+            height: 29px;
+            width: 318px;
         }
     </style>
 </head>
@@ -31,17 +53,21 @@
     font-family: 'Times New Roman', serif;
 " class="auto-style2">
     Eliminar Sucursal</td                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style3"></td>
                 </tr>
                 <tr>
                     <td class="auto-style1">Ingresar ID sucursal:</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style7">
+                        <asp:TextBox ID="txtIDsucursal" runat="server"></asp:TextBox>
+                    </td>
+                    <td class="auto-style4">
+                        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" />
+                    </td>
                 </tr>
             </table>
             <br />

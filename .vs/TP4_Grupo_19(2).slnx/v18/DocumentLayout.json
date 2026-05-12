@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\",
+  "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\ezequ\\onedrive\\documentos\\github\\tp5_programacion3\\tp4_grupo_19(2)\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\agust\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\tp4_grupo_19(2)\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\agregarsucursal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,12 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EliminarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "RelativeToolTip": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-11T19:19:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AgregarSucursal.aspx",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx",
               "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\AgregarSucursal.aspx",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx",
               "RelativeToolTip": "TP4_Grupo_19(2)\\AgregarSucursal.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-05-11T19:19:38.218Z",
               "EditorCaption": ""
@@ -48,26 +62,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ListadoSucursales.aspx",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
               "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\ListadoSucursales.aspx",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
               "RelativeToolTip": "TP4_Grupo_19(2)\\ListadoSucursales.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-05-11T19:19:37.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EliminarSucursales.aspx",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
-              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
-              "RelativeToolTip": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-05-11T19:19:35.524Z",
+              "WhenOpened": "2026-05-11T19:19:37.067Z",
               "EditorCaption": ""
             }
           ]
