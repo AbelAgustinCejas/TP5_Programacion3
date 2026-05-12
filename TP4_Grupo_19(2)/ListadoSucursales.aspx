@@ -8,21 +8,21 @@
     <title></title>
     <style type="text/css">
         .auto-style2 {
-            height: 36px;
+            height: 34px;
             width: 281px;
         }
         .auto-style3 {
             width: 281px;
         }
         .auto-style4 {
-            height: 36px;
+            height: 34px;
             width: 372px;
         }
         .auto-style5 {
             width: 372px;
         }
         .auto-style6 {
-            height: 36px;
+            height: 34px;
             width: 125px;
         }
         .auto-style7 {
