@@ -24,31 +24,31 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control HyperLink1.
+        /// Control hlAgregar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.HyperLink hlAgregar;
 
         /// <summary>
-        /// Control HyperLink2.
+        /// Control hlListado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
+        protected global::System.Web.UI.WebControls.HyperLink hlListado;
 
         /// <summary>
-        /// Control HyperLink3.
+        /// Control hlEliminar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+        protected global::System.Web.UI.WebControls.HyperLink hlEliminar;
 
         /// <summary>
         /// Control txtNombreSucursal.
@@ -58,6 +58,15 @@ namespace TP4_Grupo_19_2_
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNombreSucursal;
+
+        /// <summary>
+        /// Control rfvNombreSucursal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNombreSucursal;
 
         /// <summary>
         /// Control lblDescripcion.
@@ -78,6 +87,15 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
 
         /// <summary>
+        /// Control rfvDescripcion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDescripcion;
+
+        /// <summary>
         /// Control lblProvincia.
         /// </summary>
         /// <remarks>
@@ -87,13 +105,22 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.Label lblProvincia;
 
         /// <summary>
-        /// Control ddlProvincias.
+        /// Control ddlProvincia.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlProvincias;
+        protected global::System.Web.UI.WebControls.DropDownList ddlProvincia;
+
+        /// <summary>
+        /// Control rfvProvincia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvProvincia;
 
         /// <summary>
         /// Control lblDireccion.
@@ -114,6 +141,15 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.TextBox txtDireccion;
 
         /// <summary>
+        /// Control rfvDireccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDireccion;
+
+        /// <summary>
         /// Control btnAceptar.
         /// </summary>
         /// <remarks>
@@ -121,5 +157,14 @@ namespace TP4_Grupo_19_2_
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAceptar;
+
+        /// <summary>
+        /// Control lblMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }

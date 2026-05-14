@@ -9,7 +9,7 @@ namespace TP4_Grupo_19_2_
 {
     public class Conexion
     {
-        private const string cadenaConexion = "Data Source=PC-AGUSTIN\\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
+        private const string cadenaConexion = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
 
         public int ejecutarTransaccion(string consultaSQL)
         {
