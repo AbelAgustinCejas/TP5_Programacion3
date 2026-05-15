@@ -140,7 +140,7 @@
                 <td class="auto-style7">Nombre Sucursal:</td>
                 <td class="auto-style15">
                     <asp:TextBox ID="txtNombreSucursal" runat="server" Width="170px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="rfvNombreSucursal" runat="server" ErrorMessage="Campo Requerido"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvNombreSucursal" runat="server" ErrorMessage="Campo Requerido" ControlToValidate="txtNombreSucursal"></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style3"></td>
                 <td class="auto-style2"></td>
@@ -153,7 +153,7 @@
                 </td>
                 <td class="auto-style15">
                     <asp:TextBox ID="txtDescripcion" runat="server" Height="39px" Width="170px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="rfvDescripcion" runat="server" ErrorMessage="Campo Requerido"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvDescripcion" runat="server" ErrorMessage="Campo Requerido" ControlToValidate="txtDescripcion"></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style11"></td>
                 <td class="auto-style10"></td>
@@ -167,7 +167,6 @@
                 <td class="auto-style24">
                     <asp:DropDownList ID="ddlProvincia" runat="server" Width="178px">
                     </asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ErrorMessage="Campo Requerido"></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style26">&nbsp;</td>
                 <td>&nbsp;</td>

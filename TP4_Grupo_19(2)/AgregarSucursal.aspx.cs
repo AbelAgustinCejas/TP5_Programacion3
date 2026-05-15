@@ -12,7 +12,10 @@ namespace TP4_Grupo_19_2_
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                // código inicial
+            }
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
@@ -31,7 +34,7 @@ namespace TP4_Grupo_19_2_
                 txtDescripcion.Text = "";
                 txtDireccion.Text = "";
 
-                ddlProvincia.SelectedIndex = 0;
+                ddlProvincia.SelectedIndex = -1;
             }
         }
     }
