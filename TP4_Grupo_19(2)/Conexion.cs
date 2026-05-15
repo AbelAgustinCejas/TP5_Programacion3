@@ -11,7 +11,7 @@ namespace TP4_Grupo_19_2_
     {
         private const string cadenaConexion = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
 
-        public int ejecutarTransaccion(string consultaSQL)
+        public int ejecutarTransaccion(string consultaSQL) ///metodo para ejecutar CRUD
         {
             SqlConnection connection = new SqlConnection(cadenaConexion);
             connection.Open();
@@ -23,6 +23,11 @@ namespace TP4_Grupo_19_2_
             connection.Close();
 
             return filasAfectadas;
+        }
+        public SqlConnection obtenerConexion()
+        {
+            SqlConnection connection = new SqlConnection(cadenaConexion);
+            return connection;
         }
     }
 }

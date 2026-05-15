@@ -51,13 +51,13 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.HyperLink hlEliminar;
 
         /// <summary>
-        /// Control txtSucursales.
+        /// Control txtSucursal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSucursales;
+        protected global::System.Web.UI.WebControls.TextBox txtSucursal;
 
         /// <summary>
         /// Control btnFiltrar.
@@ -78,12 +78,12 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.Button btnMostrar;
 
         /// <summary>
-        /// Control gridSucursales.
+        /// Control gridSucursal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gridSucursales;
+        protected global::System.Web.UI.WebControls.GridView gridSucursal;
     }
 }
