@@ -15,34 +15,73 @@ namespace TP4_Grupo_19_2_
         {
             if (!IsPostBack)
             {
-                // código inicial
+                cargarGridSucursales();
             }
         }
 
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void cargarGridSucursales() 
         {
+            Conexion conexion = new Conexion();
 
+            SqlConnection connection = conexion.obtenerConexion();
+
+            string consulta = @"SELECT
+                                Sucursal.Id_Sucursal,
+                                Sucursal.NombreSucursal,
+                                Sucursal.DescripcionSucursal,
+                                Provincia.DescripcionProvincia AS Provincia,
+                                Sucursal.DireccionSucursal
+                                FROM Sucursal
+                                INNER JOIN Provincia
+                                ON Sucursal.Id_ProvinciaSucursal = Provincia.Id_Provincia";
+
+            SqlCommand command = new SqlCommand(consulta, connection);
+
+            connection.Open();
+
+            gridSucursal.DataSource = command.ExecuteReader();
+
+            gridSucursal.DataBind();
+
+            connection.Close();
         }
 
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
             Conexion conexion = new Conexion();
 
-            SqlConnection cn = conexion.obtenerConexion();
+            SqlConnection connection = conexion.obtenerConexion();
 
-            string consulta =
-                "SELECT * FROM Sucursal WHERE ID_SUCURSAL = @ID";
+            string consulta = @"SELECT
+                                Sucursal.Id_Sucursal,
+                                Sucursal.NombreSucursal,
+                                Sucursal.DescripcionSucursal,
+                                Provincia.DescripcionProvincia AS Provincia,
+                                Sucursal.DireccionSucursal
+                                FROM Sucursal
+                                INNER JOIN Provincia
+                                ON Sucursal.Id_ProvinciaSucursal = Provincia.Id_Provincia
+                                WHERE Sucursal.Id_Sucursal = @ID";
 
-            SqlCommand cmd = new SqlCommand(consulta, cn);
+            SqlCommand command = new SqlCommand(consulta, connection);
 
-            cmd.Parameters.AddWithValue("@ID", txtSucursal.Text);
+            command.Parameters.AddWithValue("@ID", txtSucursal.Text);
 
-            cn.Open();
+            connection.Open();
 
-            gridSucursal.DataSource = cmd.ExecuteReader();
+            gridSucursal.DataSource = command.ExecuteReader();
             gridSucursal.DataBind();
 
-            cn.Close();
+            connection.Close();
+
+            txtSucursal.Text = "";
+        }
+
+        protected void btnMostrar_Click(object sender, EventArgs e)
+        {
+            cargarGridSucursales();
+
+            txtSucursal.Text = "";
         }
     }
 }

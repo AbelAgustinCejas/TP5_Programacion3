@@ -14,7 +14,25 @@ namespace TP4_Grupo_19_2_
         {
             if (!IsPostBack)
             {
-                // código inicial
+                Conexion conexion = new Conexion();
+
+                SqlConnection connection = conexion.obtenerConexion();
+
+                string consulta = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
+
+                SqlCommand command = new SqlCommand(consulta, connection);
+
+                connection.Open();
+
+                ddlProvincia.DataSource = command.ExecuteReader();
+
+                ddlProvincia.DataTextField = "DescripcionProvincia";
+
+                ddlProvincia.DataValueField = "Id_Provincia";
+
+                ddlProvincia.DataBind();
+
+                connection.Close();
             }
         }
 
@@ -22,7 +40,12 @@ namespace TP4_Grupo_19_2_
         {
             Conexion conexion = new Conexion();
 
-            string consultaSQL = "INSERT INTO Sucursal " + "(NombreSucursal, DescripcionSucursal, " + "Id_ProvinciaSucursal, DireccionSucursal) " + "VALUES ('" + txtNombreSucursal.Text + "', '" + txtDescripcion.Text + "', " + ddlProvincia.SelectedValue + ", '" + txtDireccion.Text + "')";
+            string consultaSQL = "INSERT INTO Sucursal " 
+                                + "(NombreSucursal, DescripcionSucursal, " 
+                                + "Id_ProvinciaSucursal, DireccionSucursal) " 
+                                + "VALUES ('" + txtNombreSucursal.Text + "', '" 
+                                + txtDescripcion.Text + "', " + ddlProvincia.SelectedValue 
+                                + ", '" + txtDireccion.Text + "')";
 
             int filas = conexion.ejecutarTransaccion(consultaSQL);
 
@@ -34,7 +57,7 @@ namespace TP4_Grupo_19_2_
                 txtDescripcion.Text = "";
                 txtDireccion.Text = "";
 
-                ddlProvincia.SelectedIndex = -1;
+                ddlProvincia.SelectedIndex = 0;
             }
         }
     }

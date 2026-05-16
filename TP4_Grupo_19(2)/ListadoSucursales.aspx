@@ -81,12 +81,13 @@
             <td class="auto-style8">Busqueda ingrese Id sucursal: </td>
             <td class="auto-style9">
                 <asp:TextBox ID="txtSucursal" runat="server" Width="348px"></asp:TextBox>
+                <asp:RegularExpressionValidator ID="revSucursal" runat="server" ControlToValidate="txtSucursal" ValidationExpression="^\d+$" ErrorMessage="Ingrese solo números"> </asp:RegularExpressionValidator>
             </td>
             <td class="auto-style10">
                 <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
             </td>
                  <td class="auto-style11">
-                     <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" />
+                     <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" OnClick="btnMostrar_Click" />
             </td>
         </tr>
         <tr>

@@ -179,7 +179,7 @@
                 </td>
                 <td class="auto-style24">
                     <asp:TextBox ID="txtDireccion" runat="server" Width="170px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="rfvDireccion" runat="server" ErrorMessage="Campo Requerido"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvDireccion" runat="server" ErrorMessage="Campo Requerido" ControlToValidate="txtDireccion"> </asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style26">&nbsp;</td>
                 <td>&nbsp;</td>
