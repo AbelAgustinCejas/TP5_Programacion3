@@ -19,17 +19,17 @@ namespace TP4_Grupo_19_2_
         {
             Conexion conexion = new Conexion();
 
-            string consulta = "DELETE FROM Sucursal WHERE Id_Sucursal = " + txtIDsucursal.Text;
+            string consultaSQL = "DELETE FROM Sucursal WHERE Id_Sucursal = @ID";
 
-            int filas = conexion.ejecutarTransaccion(consulta);
+            int filas = conexion.ejecutarTransaccion(consultaSQL, txtIDsucursal.Text);
 
             if (filas > 0)
             {
-                lblMensaje.Text = "SE ELIMINO CORRECTRAMENTE";
+                lblMensaje.Text = "La sucursal se ha eliminado con exito";
             }
             else
             {
-                lblMensaje.Text = "NO SE PUDO ELIMINAR";
+                lblMensaje.Text = "Sucursal inexistente";
             }
 
             txtIDsucursal.Text = "";

@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\",
+  "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\familia\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\familia\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\familia\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\familia\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\agregarsucursal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\eliminarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|C:\\Users\\agust\\Desktop\\TP5_Programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\listadosucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\familia\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\eliminarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|c:\\users\\agust\\desktop\\tp5_programacion3\\tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8F1B2B9F-7613-42AB-A35F-258B41BB577D}|TP4_Grupo_19(2)\\TP4_Grupo_19(2).csproj|solutionrelative:tp4_grupo_19(2)\\listadosucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +34,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ListadoSucursales.aspx",
-              "DocumentMoniker": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
               "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\ListadoSucursales.aspx",
-              "ToolTip": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx",
               "RelativeToolTip": "TP4_Grupo_19(2)\\ListadoSucursales.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-18T23:31:48.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListadoSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
+              "RelativeToolTip": "TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwE8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T00:25:38.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EliminarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx",
+              "RelativeToolTip": "TP4_Grupo_19(2)\\EliminarSucursales.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-05-16T02:01:27.279Z",
+              "WhenOpened": "2026-05-18T23:57:49.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EliminarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
+              "RelativeToolTip": "TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T00:25:35.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\Conexion.cs",
               "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\Conexion.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\Conexion.cs",
               "RelativeToolTip": "TP4_Grupo_19(2)\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T00:15:47.235Z",
               "EditorCaption": ""
@@ -62,40 +113,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AgregarSucursal.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
               "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
-              "ToolTip": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
               "RelativeToolTip": "TP4_Grupo_19(2)\\AgregarSucursal.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:25:31.046Z",
+              "WhenOpened": "2026-05-18T23:36:05.221Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 81,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListadoSucursales.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
-              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
-              "ToolTip": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
-              "RelativeToolTip": "TP4_Grupo_19(2)\\ListadoSucursales.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:25:38.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EliminarSucursales.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
-              "RelativeDocumentMoniker": "TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
-              "ToolTip": "C:\\Users\\Familia\\Desktop\\TP5_Programacion3\\TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
-              "RelativeToolTip": "TP4_Grupo_19(2)\\EliminarSucursales.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:25:35.719Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

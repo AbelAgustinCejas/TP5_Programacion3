@@ -60,15 +60,6 @@ namespace TP4_Grupo_19_2_
         protected global::System.Web.UI.WebControls.TextBox txtSucursal;
 
         /// <summary>
-        /// Control revSucursal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revSucursal;
-
-        /// <summary>
         /// Control btnFiltrar.
         /// </summary>
         /// <remarks>
@@ -85,6 +76,15 @@ namespace TP4_Grupo_19_2_
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnMostrar;
+
+        /// <summary>
+        /// Control revSucursal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revSucursal;
 
         /// <summary>
         /// Control gridSucursal.

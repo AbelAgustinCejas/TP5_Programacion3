@@ -14,25 +14,7 @@ namespace TP4_Grupo_19_2_
         {
             if (!IsPostBack)
             {
-                Conexion conexion = new Conexion();
-
-                SqlConnection connection = conexion.obtenerConexion();
-
-                string consulta = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
-
-                SqlCommand command = new SqlCommand(consulta, connection);
-
-                connection.Open();
-
-                ddlProvincia.DataSource = command.ExecuteReader();
-
-                ddlProvincia.DataTextField = "DescripcionProvincia";
-
-                ddlProvincia.DataValueField = "Id_Provincia";
-
-                ddlProvincia.DataBind();
-
-                connection.Close();
+            CargarProvincias();
             }
         }
 
@@ -57,8 +39,27 @@ namespace TP4_Grupo_19_2_
                 txtDescripcion.Text = "";
                 txtDireccion.Text = "";
 
-                ddlProvincia.SelectedIndex = 0;
+                ddlProvincia.SelectedIndex = -1;
             }
+        }
+
+        private void CargarProvincias()
+        {
+
+            string consultaSQL = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
+
+            Conexion conexion = new Conexion();
+
+            SqlDataReader reader = conexion.ejecutarSelect(consultaSQL);
+
+            ddlProvincia.DataSource = reader;
+            ddlProvincia.DataTextField = "DescripcionProvincia";
+            ddlProvincia.DataValueField = "Id_Provincia";
+            ddlProvincia.DataBind();
+
+            ddlProvincia.Items.Insert(0, new ListItem("Seleccione una provincia", "-1"));
+
+            reader.Close();
         }
     }
 }

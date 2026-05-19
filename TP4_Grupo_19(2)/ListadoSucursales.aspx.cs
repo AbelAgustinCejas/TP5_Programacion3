@@ -15,17 +15,13 @@ namespace TP4_Grupo_19_2_
         {
             if (!IsPostBack)
             {
-                cargarGridSucursales();
+             
             }
         }
 
-        private void cargarGridSucursales() 
+        private void cargarGridSucursales()
         {
-            Conexion conexion = new Conexion();
-
-            SqlConnection connection = conexion.obtenerConexion();
-
-            string consulta = @"SELECT
+            string consultaSQL = @"SELECT
                                 Sucursal.Id_Sucursal,
                                 Sucursal.NombreSucursal,
                                 Sucursal.DescripcionSucursal,
@@ -35,15 +31,15 @@ namespace TP4_Grupo_19_2_
                                 INNER JOIN Provincia
                                 ON Sucursal.Id_ProvinciaSucursal = Provincia.Id_Provincia";
 
-            SqlCommand command = new SqlCommand(consulta, connection);
 
-            connection.Open();
+            Conexion conexion = new Conexion();
 
-            gridSucursal.DataSource = command.ExecuteReader();
+            SqlDataReader reader = conexion.ejecutarSelect(consultaSQL);
 
+            gridSucursal.DataSource = reader;
             gridSucursal.DataBind();
 
-            connection.Close();
+            reader.Close();
         }
 
         protected void btnFiltrar_Click(object sender, EventArgs e)

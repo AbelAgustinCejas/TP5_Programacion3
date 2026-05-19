@@ -11,12 +11,17 @@ namespace TP4_Grupo_19_2_
     {
         private const string cadenaConexion = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BDSucursales;Integrated Security=True";
 
-        public int ejecutarTransaccion(string consultaSQL) ///metodo para ejecutar CRUD
+        public int ejecutarTransaccion(string consultaSQL, string id = null) /// LA FUNCION EN CASO DE NO TENER ID SOLO EJECUTA, CASO CONTRARIO SIRVE PARA ELIMINAR POR ID
         {
             SqlConnection connection = new SqlConnection(cadenaConexion);
             connection.Open();
 
             SqlCommand command = new SqlCommand(consultaSQL, connection);
+
+            if (id != null)
+            {
+                command.Parameters.AddWithValue("@ID", id); /// SI ID EXISTE ENTRA POR ESTE IF Y LO AÑADE A LA NUEVA CONSULTA
+            }
 
             int filasAfectadas = command.ExecuteNonQuery();
 
@@ -24,10 +29,23 @@ namespace TP4_Grupo_19_2_
 
             return filasAfectadas;
         }
-        public SqlConnection obtenerConexion()
+
+        public SqlDataReader ejecutarSelect(string consultaSQL)
         {
             SqlConnection connection = new SqlConnection(cadenaConexion);
-            return connection;
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(consultaSQL, connection); /// SE CREA EL COMANDO
+
+            SqlDataReader reader = command.ExecuteReader(); /// SE EJECUTA METODO QUE DEVUELVE LECTURA
+
+            return reader;
+        }
+
+
+        public SqlConnection obtenerConexion()
+        {
+            return new SqlConnection(cadenaConexion);
         }
     }
 }

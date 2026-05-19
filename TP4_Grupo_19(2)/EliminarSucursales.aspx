@@ -64,16 +64,19 @@
                     <td class="auto-style1">Ingresar ID sucursal:</td>
                     <td class="auto-style7">
                         <asp:TextBox ID="txtIDsucursal" runat="server"></asp:TextBox>
-                        <asp:RegularExpressionValidator ID="revID" runat="server" ControlToValidate="txtIDsucursal" ValidationExpression="^\d+$" ErrorMessage="Ingrese solo números"> </asp:RegularExpressionValidator>
                     </td>
                     <td class="auto-style4">
                         <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" />
-                        <asp:Label ID="lblMensaje" runat="server"> </asp:Label>
                     </td>
                 </tr>
             </table>
+                        <asp:Label ID="lblMensaje" runat="server"> </asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:RegularExpressionValidator ID="revIDsucursal" runat="server" ControlToValidate="txtIDsucursal" ValidationExpression="^\d+$" ErrorMessage="Ingrese solo números"></asp:RegularExpressionValidator>
             <br />
         </div>
+                <p>
+                    &nbsp;</p>
     </form>
 </body>
 </html>

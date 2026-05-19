@@ -81,7 +81,6 @@
             <td class="auto-style8">Busqueda ingrese Id sucursal: </td>
             <td class="auto-style9">
                 <asp:TextBox ID="txtSucursal" runat="server" Width="348px"></asp:TextBox>
-                <asp:RegularExpressionValidator ID="revSucursal" runat="server" ControlToValidate="txtSucursal" ValidationExpression="^\d+$" ErrorMessage="Ingrese solo números"> </asp:RegularExpressionValidator>
             </td>
             <td class="auto-style10">
                 <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" />
@@ -93,7 +92,8 @@
         <tr>
             <td class="auto-style8">&nbsp;</td>
             <td class="auto-style9">
-                &nbsp;</td>
+                <asp:RegularExpressionValidator ID="revSucursal" runat="server" ControlToValidate="txtSucursal" ValidationExpression="^\d+$" ErrorMessage="Ingrese solo números"> </asp:RegularExpressionValidator>
+            </td>
             <td class="auto-style10">
                 &nbsp;</td>
                  <td class="auto-style11">
